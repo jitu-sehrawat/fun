@@ -1,0 +1,22 @@
+{
+  "name": "asdsad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node index",
+    "staging": "NODE_ENV=staging node index",
+    "prod": "NODE_ENV=production node index",
+    "local":"NODE_ENV=local nodemon index",
+    "localdev":"NODE_ENV=localdev nodemon index",
+    "localstaging":"NODE_ENV=localstaging nodemon index",
+    "localprod":"NODE_ENV=localprod nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "custom-env": "^1.0.0",
+    "nodemon": "^1.18.10"
+  }
+}

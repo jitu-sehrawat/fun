@@ -1,0 +1,11 @@
+curl -X POST \
+  https://fcm.googleapis.com/fcm/send \
+  -H 'Authorization: key=AAAAd05nOFA:APA91bESCekFZuIze3hIUmE-uoiZGGypqBBPSqGT9y0cp8Lmo_ERj3___4CIMIUFbHgv5E4toR8og5V8VMUfQ2-aTpl7IxyEDkPvDOT4XYI2uWGB-AbtAMUXTH7Z8BfrGshQ2uCJnQM5' \
+  -H 'Content-Type: application/json' \
+  -d '{ 
+ "notification": {
+  "title": "Hello World", 
+  "body": "This is Message from Admin"
+ },
+ "to" : "feA8RgfyCgU:APA91bHdT930GFSa5XTNo4KKN8lwEMdTJpt_tp_rx3E7HKM52j3FiKEPbknJ5qWH6JpDSgT8erm9of0jMUnskI4xhLfbMeRnwd4KY7nYSmK8zbpXgAHOJ0gVgD5sSsZaOZ7NY0rZVH8Q"
+}'

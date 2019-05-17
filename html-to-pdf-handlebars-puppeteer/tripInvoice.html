@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FMS</title>
+</head>
+
+<body>
+  <table bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr>
+        <td bgcolor="#EEEEEE" style="padding:20px 15px 0 15px">
+          <div align="center">
+            <table border="0" cellpadding="0" cellspacing="0" width="660">
+              <tbody>
+                <tr>
+                  <td bgcolor="#ffffff"
+                    style="padding:24px 14px 0 14px;border-top-left-radius:4px;border-top-right-radius:4px">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td width="40%" align="left">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:#707070;font-weight:normal;line-height:16px">
+                                    {{trip.tripDate}} <br> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td width="60%" align="right">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td align="right" style="padding:0 0 5px 0"> <a href="#"> <img width="76"
+                                        style="display:inline;float:none;text-align:center;width:76px"
+                                        src="https://filestoragefms.blob.core.windows.net/uploads/1558081214196.png"
+                                        alt="FMS"> </a> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="color:#ffffff;line-height:10px"> <img
+                              src="https://filestoragefms.blob.core.windows.net/uploads/1558081247805.png"
+                              style="width:100%"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff" align="center"
+                    style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:40px;font-weight:bold;color:#000000">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td style="padding-left:15px">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td
+                                    style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:40px;font-weight:bold;color:#000000;padding-right:10px">
+                                    ₹ {{billDetails.tripCost}} </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td style="padding-top:10px;padding-left:6px"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff" align="center"
+                    style="padding-right:20px;padding-left:20px;padding-bottom:2px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#777777">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                      <tbody>
+                        <tr>
+                          <td align="center"
+                            style="padding-top:10px;background-image:url('sep.png');background-position:center 100%;background-repeat:no-repeat">
+                            <span
+                              style="background-color:#ffffff;padding-top:0px;padding-left:0px;padding-right:0px;font-size:14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#707070">
+                              &nbsp;&nbsp;&nbsp;CRN351388649&nbsp;&nbsp;&nbsp;<br> </span> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff" align="center"
+                    style="font-family:Helvetica,Helvetica Neue,Arial,sans-serif;font-size:14px;word-spacing:-0.3px;color:#000000;padding-bottom:0px;padding-top:17px">
+                    Thanks for travelling with us, {{customer}} </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#ffffff" align="center" style="padding-left:16px;padding-right:16px">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="border-bottom:3px solid #ececec;width:100%;text-align:center;color:#ffffff"> <img
+                              src="https://filestoragefms.blob.core.windows.net/uploads/1558081247805.png"
+                              style="width:100%"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- 2nd -->
+  <table bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr>
+        <td bgcolor="#EEEEEE" align="center" style="padding:0 15px 0 15px">
+          <table border="0" cellpadding="0" cellspacing="0" width="660">
+            <tbody>
+              <tr>
+                <td>
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td bgcolor="#ffffff" valign="top"
+                          style="padding-top:28px;padding-bottom:0;padding-left:0px;padding-right:0px">
+                          <table cellpadding="0" cellspacing="0" border="0" width="49.5%" align="left">
+                            <tbody>
+                              <tr>
+                                <td style="padding-left:14px;padding-right:14px">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center"
+                                          style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#333333;font-size:16px;padding-bottom:16px;font-weight:bold">
+                                          Ride Details </td>
+                                      </tr>
+                                      <tr>
+                                        <td align="center">
+                                          <img width="298px" height="298px"
+                                            src="https://filestoragefms.blob.core.windows.net/uploads/1558081221685.jpeg"
+                                            alt="">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding:9px 0 0 0">
+                                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="top"
+                                                  style="border-bottom:1px solid #eeeeee;padding-bottom:10px;padding-left:14px">
+                                                  <table cellpadding="0" cellspacing="0" border="0" width="100%"
+                                                    style="width:100%" align="left">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" style="width:42px;padding-left:2px" width="42">
+                                                          <img height="50" style="height:50px"
+                                                            src="https://filestoragefms.blob.core.windows.net/uploads/1558081204339.png"
+                                                            alt="">
+                                                        </td>
+                                                        <td align="left" style="padding-left:16px">
+                                                          <table>
+                                                            <tbody>
+                                                              <tr>
+                                                                <td
+                                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:16px;line-height:18px">
+                                                                  {{driverDetails.name}} NA </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="color:#ffffff;line-height:12px!important;font-size:10px!important">
+                                                  <img
+                                                    src="https://filestoragefms.blob.core.windows.net/uploads/1558081247805.png"
+                                                    style="width:100%"> </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding:0 0 0 0">
+                                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="top"
+                                                  style="border-bottom:1px solid #eeeeee;padding-bottom:7px;padding-left:14px;padding-top:5px">
+                                                  <table cellpadding="0" cellspacing="0" border="0" width="100%"
+                                                    style="width:100%" align="left">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left" style="width:42px;padding-left:2px" width="42">
+                                                          <img width="38" style="width:38px"
+                                                            src="https://filestoragefms.blob.core.windows.net/uploads/1558081228044.png"
+                                                            alt=""> </td>
+                                                        <td align="left"
+                                                          style="padding-top:4px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:14px;padding-left:16px;line-height:16px">
+                                                          {{vehicleDetails.model}}
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td style="color:#ffffff;line-height:8px"> <img
+                                                    src="https://filestoragefms.blob.core.windows.net/uploads/1558081247805.png"
+                                                    style="width:100%"> </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr
+                                        style="vertical-align:top;text-align:left;display:block;background-color:#ffffff;padding-bottom:10px;padding-top:5px"
+                                        align="left" bgcolor="#ffffff">
+                                        <td
+                                          style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:inline-block;padding:10px 0 0 14px"
+                                          align="left" valign="top">
+                                          <table
+                                            style="border-spacing:0;border-collapse:collapse;vertical-align:top;text-align:left;width:auto;padding:0">
+                                            <tbody>
+                                              <tr style="vertical-align:top;text-align:left;width:100%;padding-top:5px"
+                                                align="left">
+                                                <td
+                                                  style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:table-cell;width:80px!important;line-height:16px;height:auto;padding:0 0 0 0"
+                                                  align="left" valign="top"> <span
+                                                    style="font-size:14px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;font-weight:normal;color:#000000!important">
+                                                    <span> <a
+                                                        style="text-decoration:none!important;color:#000000!important">{{trip.tripStartedAt}}</a> </span> </span> </td>
+                                                <td rowspan="2"
+                                                  style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:table-cell;width:17px!important;padding:3px 2px 10px 2px"
+                                                  align="left" valign="top"> <img width="6" height="84px"
+                                                    src="https://filestoragefms.blob.core.windows.net/uploads/1558081241253.png"
+                                                    style="outline:none;text-decoration:none;float:left;clear:both;display:block;width:6px!important;height:84px;padding-top:5px"
+                                                    align="left"> </td>
+                                                <td
+                                                  style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:table-cell;width:197px;line-height:16px;height:57px;padding:0 10px 10px 0"
+                                                  align="left" valign="top"> <span
+                                                    style="font-size:14px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000!important;line-height:16px;text-decoration:none">
+                                                    {{trip.tripStartedSource}} </span> </td>
+                                              </tr>
+                                              <tr style="vertical-align:top;text-align:left;width:100%;padding:0"
+                                                align="left">
+                                                <td
+                                                  style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:table-cell;width:80px!important;line-height:16px;height:auto;padding:0 0 0 0"
+                                                  align="left" valign="top">
+                                                  <span
+                                                    style="font-size:14px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;font-weight:normal;color:#000000!important">
+                                                    <span> <a
+                                                        style="text-decoration:none!important;color:#000000!important">{{trip.tripStopedAt}}</a> </span> </span>
+                                                </td>
+                                                <td
+                                                  style="word-break:break-word;border-collapse:collapse!important;vertical-align:top;text-align:left;display:table-cell;width:197px;line-height:16px;height:auto;padding:0 0px 0 0"
+                                                  align="left" valign="top"> <span
+                                                    style="font-size:14px;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;font-weight:normal;color:#000000!important">
+                                                    {{trip.tripStopeddestination}} </span> </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table cellpadding="0" cellspacing="0" border="0" width="49.5%" align="left">
+                            <tbody>
+                              <tr>
+                                <td style="padding-right:14px;padding-left:14px">
+                                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center"
+                                          style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#333333;font-size:16px;padding-bottom:16px;font-weight:bold;border-bottom:1px solid #d7d7d7">
+                                          Bill Details</td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;border-bottom:2px solid #eeeeee; padding: 10px">
+                                                  Base Fare
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold;border-bottom:2px solid #eeeeee; padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.baseFare}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff" style="border-bottom: 1px solid #d7d7d7">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Distance Fare
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  First 20 km
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold; padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.first20km}}
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Last 3.5 km
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold;padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.after20km}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Ride Time Fare for 57 min
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold; padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.rideTimeFare}}
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Fare Decrease
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold;padding: 10px 13px 10px 10px; text-align: right">
+                                                  -₹{{billDetails.fareDecrease}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff" style="border-bottom: 1px solid #d7d7d7">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:14px;  padding:7px 10px; background: #f3f3f3">
+                                                  Ride Fare
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:14px;font-weight:bold; padding: 7px 13px 7px 7px; text-align: right; background: #f3f3f3">
+                                                  ₹{{billDetails.rideFare}}
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Taxes
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold;padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.taxes}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff" style="border-bottom: 1px solid #d7d7d7">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:15px; padding: 10px; font-weight:bold; background: #f3f3f3">
+                                                  Total Bill (rounded off)
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:15px;font-weight:bold; padding: 10px 13px 10px 10px; text-align: right; background: #f3f3f3">
+                                                  ₹{{billDetails.totalBill}}
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px; padding: 10px">
+                                                  Insurance premium
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#85748c;font-size:14px;font-weight:bold;padding: 10px 13px 10px 10px; text-align: right">
+                                                  ₹{{billDetails.insurancePremium}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#ffffff" style="border-bottom: 1px solid #d7d7d7">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:15px; padding: 10px; font-weight:bold; background: #f3f3f3">
+                                                  Total Payable
+                                                </td>
+                                                <td align="right"
+                                                  style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#000000;font-size:15px;font-weight:bold; padding: 10px 13px 10px 10px; text-align: right; background: #f3f3f3">
+                                                  ₹{{billDetails.totalPayable}}
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 20px 0">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="left"
+                                                          style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#707070;font-size:13px;line-height:18px">
+                                                          Click <a href="#" style="color:#5d93bb;text-decoration:none"
+                                                            target="_blank"> here</a> to get a copy of your invoice.<br>
+                                                          Have queries? Visit <a href="#"
+                                                            style="color:#5d93bb;text-decoration:none" target="_blank">
+                                                            support for this ride.</a> </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="left"
+                                                          style="font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#707070;font-size:13px;line-height:18px">
+                                                          We've fulfilled our promise to take you to destination for
+                                                          pre-agreed Total Fare. Modifying the drop/route can change
+                                                          this fare.
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- first page footer -->
+  <table bgcolor="#eeeeee" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr>
+        <td bgcolor="#EEEEEE" align="center" style="padding:0 15px 0 15px">
+          <table border="0" cellpadding="0" cellspacing="0" width="660" style="margin-bottom: 20px;">
+            <tbody>
+              <tr>
+                <td bgcolor="#ffffff">
+                  <img src="https://filestoragefms.blob.core.windows.net/uploads/1558081247805.png" style="width:100%">
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#ffffff"
+                  style="border-top: 2px solid #f2f2f2; padding-left:16px;padding-right:16px; padding-top: 5px; padding-bottom: 5px;">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td
+                          style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#707070;font-weight:normal;line-height:12px; width: 50%; padding-right: 15px;">
+                          Fares are lower than usual when demand goes down. Your ride fare was calculated as per the
+                          revised rate card
+                        </td>
+                        <td align="center"
+                          style="padding: 5px; border-right: 2px solid #f2f2f2; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#707070;font-weight:normal;line-height:12px; width: 10%">
+                          <strong>₹56</strong><br> base fare
+                        </td>
+                        <td align="left"
+                          style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#707070;font-weight:normal;line-height:12px; width: 25%; padding: 0 5px; border-right: 2px solid #f2f2f2">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="padding-bottom: 5px;">
+                                  First 20 km
+                                </td>
+                                <td align="right" style="padding-bottom: 5px;">
+                                  ₹4.8/km
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left">
+                                  After 20 km
+                                </td>
+                                <td align="right">
+                                  ₹9.6/km
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td align="center"
+                          style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#707070;font-weight:normal;line-height:12px; width: 15%; padding-top: 5px; padding-bottom: 5px;">
+                          <strong>₹1.2/min</strong> ride time fare
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td bgcolor="#ffffff"
+                  style="padding-left:16px;padding-right:16px; padding-bottom: 16px; border-top: 2px solid #f2f2f2;">
+                  <span
+                    style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;color:#707070;font-weight:normal;line-height:12px">Please
+                    Note: 1) Insurance Service is not provided by ANI Technologies Private Limited. Invoice for the
+                    insurance fee collected for the ride will be raised by the respective Insurance company.</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- end of first page footer -->
+</body>
+
+</html>
