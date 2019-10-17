@@ -1,11 +1,39 @@
 curl -X POST \
   https://fcm.googleapis.com/fcm/send \
-  -H 'Authorization: key=AAAAd05nOFA:APA91bESCekFZuIze3hIUmE-uoiZGGypqBBPSqGT9y0cp8Lmo_ERj3___4CIMIUFbHgv5E4toR8og5V8VMUfQ2-aTpl7IxyEDkPvDOT4XYI2uWGB-AbtAMUXTH7Z8BfrGshQ2uCJnQM5' \
+  -H 'Authorization: key=AAAA_XkDVBE:APA91bGnZ2aZQMLXs0FbmE_a7cgFR27D8T9V4wja81DNahpwSNfNI2ofHemTGBvGBbU8QTV0LmuwY12L4ohTBDQ1OztSTX2mAaI8D0CyNtuAlsEU3bG1XAQ1W1lCZaFK81nir7A1i8eG' \
   -H 'Content-Type: application/json' \
   -d '{ 
  "notification": {
   "title": "Hello World", 
   "body": "This is Message from Admin"
  },
- "to" : "feA8RgfyCgU:APA91bHdT930GFSa5XTNo4KKN8lwEMdTJpt_tp_rx3E7HKM52j3FiKEPbknJ5qWH6JpDSgT8erm9of0jMUnskI4xhLfbMeRnwd4KY7nYSmK8zbpXgAHOJ0gVgD5sSsZaOZ7NY0rZVH8Q"
+ "to" : "c4WGwg23m14:APA91bFFIUB0eOyIORibBWQ8CBVuK79UzNQ4dToC3iHscIItBo19UySBHisalAp9FXQsnM7zd1z15zOlv14-Sq3xO3KCwPhIAYXnP0AJIzFe8-5Ktx1r04iACY5_kCVytnA9oPWPBkvp"
+}'
+
+curl -X POST \
+  https://fcm.googleapis.com/fcm/send \
+  -H 'Authorization: key=AAAA_XkDVBE:APA91bGnZ2aZQMLXs0FbmE_a7cgFR27D8T9V4wja81DNahpwSNfNI2ofHemTGBvGBbU8QTV0LmuwY12L4ohTBDQ1OztSTX2mAaI8D0CyNtuAlsEU3bG1XAQ1W1lCZaFK81nir7A1i8eG' \
+  -H 'Content-Type: application/json' \
+  -d '{ 
+ "notification": {
+  "title": "Hello World", 
+  "body": "This is Message from Admin"
+ },
+ "to" : "cl3_CKaV0hI:APA91bExlapqA39Q5Ks7bY5HNeUIqYXOhlCoSysfINb74RJ18vR_ZQ0vikYZqHGsDGh_B00ceo9poUJ3e1Rkqrw5_iLG0Leovbm3MUkd0spWVhJ0ngoIB1x0xw8lbP-EFMBCdxkwkD9W"
+}'
+
+curl -X POST \
+  https://fcm.googleapis.com/fcm/send \
+  -H 'Authorization: key=AAAA_XkDVBE:APA91bGnZ2aZQMLXs0FbmE_a7cgFR27D8T9V4wja81DNahpwSNfNI2ofHemTGBvGBbU8QTV0LmuwY12L4ohTBDQ1OztSTX2mAaI8D0CyNtuAlsEU3bG1XAQ1W1lCZaFK81nir7A1i8eG' \
+  -H 'Content-Type: application/json' \
+  -d '{ 
+ "notification": {
+  "title": "Rate Us.", 
+  "body": "Rate your experience with the driver.",
+  "data": {
+    "action": "rating"
+    "tripId":	{"_id":"5d9ddbec7bb6571dc0dced95","tripCost":0,"tripDistance":0,"tripTiming":0,"bookingType":"osb","eta":1140,"etd":7362,"recursiveStatus":false,"sosPressed":true,"sosVehicleReplaced":true,"isAccepted":"finished","tripDate":"2019-10-08T18:30:00.000Z","startTime":"2019-10-09T13:10:00.000Z","vehicleId":"5d78e4462182953b6af1dc9d","tripType":"drop","bookingId":"5d9ddbe37bb6571dc0dced93","source":{"address":"Plot No 685 & 686, Udyog Vihar Phase V, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana 122016, India","longitude":77.0843277,"latitude":28.5051115},"passengers":[{"startOTPStatus":true,"stopOTPStatus":true,"_id":"5d9ddbec7bb6571dc0dced96","employeeId":"5d78e20e2182953b6af1dc99","destination":{"address":"Mahipalpur, New Delhi, Delhi, India","longitude":77.1281345,"latitude":28.5448686},"source":{"address":"Plot No 685 & 686, Udyog Vihar Phase V, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana 122016, India","longitude":77.0843277,"latitude":28.5051115},"startOTP":2697,"stopOTP":4298,"startOTPTime":"2019-10-09T13:12:50.158Z","stopOTPTime":"2019-10-10T14:07:26.444Z","comment":"commentcommentcommentcomment","rating":4,"ratingGiven":true}],"corpId":"5d78e1852182953b6af1dc93","createdBy":"5d78e1852182953b6af1dc93","groupName":"5d78e20e2182953b6af1dc99-1570626540466","routeSuggested":[],"routeTaken":[{"_id":"5d9ddc357bb6571dc0dced99","timestamp":"2019-10-09T13:10:13.354Z","LAT":28.5053338588215,"LONG":77.0841957829936},{"_id":"5d9ddc3f7bb6571dc0dced9a","timestamp":"2019-10-09T13:10:23.353Z","LAT":28.5052861147161,"LONG":77.0842093396515},{"_id":"5d9ddc497bb6571dc0dced9b","LAT":28.5053254299197,"timestamp":"2019-10-09T13:10:33.353Z","LONG":77.0841447346763},{"_id":"5d9ddc537bb6571dc0dced9c","LAT":28.5053254299197,"timestamp":"2019-10-09T13:10:43.353Z","LONG":77.0841447346763},{"_id":"5d9ddc5d7bb6571dc0dced9d","LONG":77.0841447346763,"LAT":28.5053254299197,"timestamp":"2019-10-09T13:10:53.352Z"},{"_id":"5d9ddc677bb6571dc0dced9e","LAT":28.5053254299197,"LONG":77.0841447346763,"timestamp":"2019-10-09T13:11:03.352Z"},{"_id":"5d9ddc717bb6571dc0dceda1","LAT":28.5053254299197,"LONG":77.0841447346763,"timestamp":"2019-10-09T13:11:13.352Z"},{"_id":"5d9ddc7b7bb6571dc0dceda2","timestamp":"2019-10-09T13:11:23.351Z","LONG":77.0841447346763,"LAT":28.5053254299197}],"createdAt":"2019-10-09T13:09:00.748Z","updatedAt":"2019-10-10T14:42:46.320Z","__v":0,"driverId":"5d78e59e2182953b6af1dca1","tripStartedAt":"2019-10-09T13:10:03.324Z","sosPausedAt":"2019-10-09T13:11:24.049Z","sosResumedAt":"2019-10-09T13:12:50.158Z","tripStopedAt":"2019-10-10T14:07:26.444Z","timeDeviation":32,"cashCollected":true}
+  }
+ },
+ "to" : "dJFfIU_Y5aM:APA91bFuCaXKPoa8uKUP9MNJ3NLPj0xQkTwB6CkIw-ZzG-0bKIxxfUQWD6Z8IONyqXVJ3ONTR8EyxDMrcM98xPmYaWoeaU4MImiiVUupfzaeNyW3sDk_jUsmZr67hj8wTdWljn3B0j_W"
 }'

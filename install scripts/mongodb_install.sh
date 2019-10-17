@@ -14,7 +14,7 @@ sudo apt-get update
 echo 'Install the MongoDB packages'
 sudo apt-get install -y mongodb-org
 
-# Configure Docker to start on boot
+# Configure MongoDB to start on boot
 echo 'Configure Docker to start on boot'
 sudo systemctl enable mongod
 
