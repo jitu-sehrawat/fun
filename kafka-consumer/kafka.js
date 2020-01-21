@@ -3,14 +3,14 @@ const Consumer = kafka.Consumer;
 const Offset = kafka.Offset;
 const Client = kafka.KafkaClient;
 const topic = "MSILAGL";
-const counter = 0;
 
 const client = new Client({ kafkaHost: "103.233.79.237:9093" });
-const topics = [{ topic: topic, partition: 1 }];
+const topics = [{ topic: topic, partition: 0 }];
 const options = {
-  autoCommit: false,
+  autoCommit: true,
   fetchMaxWaitMs: 1000,
-  fetchMaxBytes: 1024 * 1024
+  fetchMaxBytes: 1024 * 1024,
+  fromOffsets: true
 };
 
 const consumer = new Consumer(client, topics, options);
@@ -18,7 +18,6 @@ const offset = new Offset(client);
 
 consumer.on("message", function(message) {
   console.log(message);
-  console.log(counter++);
 });
 
 consumer.on("error", function(err) {
